@@ -44,7 +44,7 @@ file, and uses:
 - sample sizes 300, 350, 400, 450, 500, and 1000;
 - maximum candidate period Q = 15, with candidates 2 through 15;
 - burn-in of 500 observations;
-- Gaussian LASSO with an intercept and standardised predictors;
+- LASSO was used to estimate the coefficients.
 - ten-fold cross-validation, selecting `lambda.min`.
 
 The function uses the existing random-number state. To repeat a run, reset the
