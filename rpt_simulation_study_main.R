@@ -4,7 +4,7 @@
 source("rpt_simulation_sensitivity.R")
 
 # Global seed: the simulation function does not reset it.
-set.seed(12345)
+set.seed(123456)
 
 results <- run_rpt_study(
   B = 500,
