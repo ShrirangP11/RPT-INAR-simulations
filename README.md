@@ -95,7 +95,7 @@ To examine Q = 10, 15, and 20, use:
 
 ```r
 source("rpt_simulation_sensitivity.R")
-set.seed(12345)
+set.seed(123456)
 
 sensitivity_results <- run_rpt_study(
   B = 500,
