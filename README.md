@@ -115,7 +115,4 @@ replication. The main launch script runs Q = 15 only; the optional analysis is
 a separate run and is not evidence that Q sensitivity has already been
 reported in the manuscript.
 
-## Scope
 
-These files produce Monte Carlo recovery tables. They do not include the
-plotting scripts for the original single-trajectory illustrations.
